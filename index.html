@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天気アプリ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!-- <div id="weatherBackground"></div> -->
+
+    <h1 id="homeBtn">Weather Friends</h1>
+    <div class="container">
+        <div class="animal">
+            <img src="image/top.png" alt="animal">
+        </div>
+
+        <div class="weather-app">
+            <div class="search-box">
+                <input type="text" id="city" placeholder="都市名を入力（例：Osaka）">
+                <button id="searchBtn">
+                    <img src="image/nikukyu.png" alt="リセット">
+                    <i class="fa-solid fa-magnifying-glass" style="color: rgb(255, 255, 255);"></i>
+                </button>
+            </div>
+
+            <div class="weather-card">
+                <div id="weatherResult">
+                    <!-- JSで天気表示 -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ad-banner" id="adBanner">
+        <a href="#">
+            <img id="adImage" src="image/ad-usagi.png" alt="広告">
+        </a>
+
+        <button id="closeAd">×</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
