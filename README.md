@@ -1,6 +1,10 @@
 # Weather Friends
 
-天気予報を検索できるWebアプリです。
+天気予報を楽しく確認できることをコンセプトに、天候に応じて背景や動物が変化する演出や検索回数に応じた広告表示機能を実装したWebアプリです。
+
+## Demo
+
+https://momota015.github.io/weather-friends/
 
 ## Screenshot
 
@@ -27,6 +31,3 @@
 - JavaScript
 - OpenWeather API
 
-## Demo
-
-https://momota015.github.io/weather-friends/
