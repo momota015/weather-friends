@@ -1,3 +1,4 @@
+"use strict";
 const searchBtn = document.getElementById("searchBtn");
 const weatherResult = document.getElementById("weatherResult");
 const cityInput = document.getElementById("city");
