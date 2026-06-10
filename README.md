@@ -36,3 +36,4 @@ https://momota015.github.io/weather-friends/
 - CSS
 - JavaScript
 - OpenWeather API
+※学習用のため、APIキーをフロントエンドに記載しています。実運用ではサーバーサイドで秘匿する必要があると理解しています。
